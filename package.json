@@ -1,10 +1,10 @@
 {
   "name": "nodejs-hello-world",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/snave333/nodejs-hello-world/issues"
   },
-  "homepage": "https://github.com/snave333/nodejs-hello-world#readme"
+  "homepage": "https://github.com/snave333/nodejs-hello-world#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.88.0",
+    "tape": "^4.9.1"
+  }
 }
